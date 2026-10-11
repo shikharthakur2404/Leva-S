@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "postinstall": "npx react-native setup-ios-permissions"
+    "postinstall": "node scripts/patch-rn-erb.js && npx react-native setup-ios-permissions"
   },
   "reactNativePermissionsIOS": [
     "Camera",
@@ -51,9 +51,9 @@
     "react-native-fast-image": "^8.6.3",
     "react-native-fbsdk-next": "^11.1.0",
     "react-native-flash-message": "^0.3.1",
-    "react-native-gesture-handler": "^2.9.0",
+    "react-native-gesture-handler": "2.9.0",
     "react-native-gifted-charts": "1.2.41",
-    "react-native-iap": "^12.4.9",
+    "react-native-iap": "12.4.9",
     "react-native-image-crop-picker": "^0.38.0",
     "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-linear-gradient": "^2.6.2",
@@ -63,8 +63,8 @@
     "react-native-push-notification": "^8.1.1",
     "react-native-reanimated": "3.0.0-rc.3",
     "react-native-render-html": "^6.3.4",
-    "react-native-safe-area-context": "^4.3.1",
-    "react-native-screens": "^3.15.0",
+    "react-native-safe-area-context": "4.3.1",
+    "react-native-screens": "3.15.0",
     "react-native-share": "^7.7.0",
     "react-native-splash-screen": "^3.3.0",
     "react-native-svg": "^12.4.3",

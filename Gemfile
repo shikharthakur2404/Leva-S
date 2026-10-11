@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
 
-# You may use http://rbenv.org/ or https://rvm.io/ to install and use this version
-ruby '2.7.4'
-
-gem 'cocoapods', '~> 1.11', '>= 1.11.2'
+# RN 0.68 needs CocoaPods < 1.15 (1.17 breaks use_react_native_codegen!).
+gem 'cocoapods', '1.14.3'

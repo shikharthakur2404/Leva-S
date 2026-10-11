@@ -1,0 +1,12 @@
+node_modules
+vendor/bundle
+.bundle
+
+# Native build / IDE
+ios/Pods/
+ios/build/
+ios/**/xcuserdata/
+android/.gradle/
+android/app/build/
+android/local.properties
+*.xcuserstate
